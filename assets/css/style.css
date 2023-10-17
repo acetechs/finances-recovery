@@ -202,6 +202,7 @@ body {
 
 .section-heading {
   margin-bottom: 70px;
+  
 }
 
 .section-heading h2 {
@@ -468,18 +469,6 @@ Header Style
   display: flex;
 }
 
-/* .header-area .main-nav .logo h1 {
-  line-height: 100px;
-  font-size: 28px;
-  text-transform: uppercase;
-  color: #931111;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.background-header .main-nav .logo h1 {
-  line-height: 80px;
-} */
 
 .header-area .main-nav ul.nav {
   flex-basis: 100%;
@@ -1044,7 +1033,9 @@ complain Style
   padding: 30px;
   margin-bottom: 30px;
 }
-
+.bc-row{
+  background-color: #072347;
+}
 .complain .item img {
   border-radius: 10px;
 }
@@ -1261,7 +1252,8 @@ Page Header Style
 */
 
 .page-heading {
-  background-image: url(../images/page-heading-bg.jpg);
+  background-image: url(../images/breadcrumb-bg.avif);
+  filter: brightness(70%);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1269,9 +1261,9 @@ Page Header Style
   text-align: center;
 }
 
+
 .page-heading span {
-  background-color: #fff;
-  color: #1e1e1e;
+  color: #000000;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
