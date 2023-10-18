@@ -135,6 +135,8 @@ hgroup {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
@@ -176,6 +178,11 @@ img {
   overflow: hidden;
 }
 
+
+
+
+
+
 /* 
 ---------------------------------------------
 Global Styles
@@ -184,6 +191,8 @@ Global Styles
 html,
 body {
   font-family: "Poppins", sans-serif;
+  /* background-color: #000000; */
+  /* color: white; */
 }
 
 ::selection {
@@ -212,6 +221,8 @@ body {
   margin-top: 20px;
   line-height: 56px;
 }
+
+
 
 .section-heading h2 em {
   font-style: normal;
@@ -1104,7 +1115,7 @@ Contact Style
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 100px 0px 250px 0px;
+  padding: 100px 0px 0px 0px;
   position: relative;
 }
 
@@ -1672,10 +1683,15 @@ body {
   .contact-content .phone {
     margin-right: 0px;
     margin-bottom: 20px;
+    background-color: #000000;
+    color: white;
+    margin-top: 200px;
   }
   .contact-content .email {
     margin-left: 0px;
-    margin-bottom: 45px;
+    background-color: #000000;
+    color: white;
+    
   }
   .contact-content #contact-form {
     margin-left: 0px;

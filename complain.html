@@ -113,29 +113,29 @@
 
         <div class="form-group col-md-6">
           <label for="inputName">Full Name</label>
-          <input type="text" class="form-control" id="inputName" placeholder="Tell us your name..." >
+          <input type="text" class="form-control" id="inputName" placeholder="Tell us your name..." required >
         </div><br>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail">Email</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" >
+            <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required>
           </div><br>
        
          <div class="form-group col-md-6">
           <label for="inputAddress">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" >
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required >
         </div><br>
 
        <div class="form-group col-md-6">
           <label for="inputScamco">Scam company name</label>
-          <input type="text" class="form-control" id="inputScamco" placeholder="" >
+          <input type="text" class="form-control" id="inputScamco" placeholder="We'd like to know the name of the fake company" required>
         </div><br>
 
        
 
         <div class="form-group col-md-4">
           <label for="inputCountry">Country</label>
-          <select id="inputCountry" class="form-control" >
+          <select id="inputCountry" class="form-control" required>
             <option selected>Select your country</option>
             <option value="Afghanistan">Afghanistan</option>
             <option value="Åland Islands">Åland Islands</option>
@@ -388,13 +388,13 @@
          <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity" >
+            <input type="text" class="form-control" id="inputCity" required>
           </div><br>
 
          <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputState">State</label>
-              <input type="text" class="form-control" id="inputState" >
+              <input type="text" class="form-control" id="inputState" required>
             </div><br>
 
             <div class="form-group col-md-3">
@@ -406,7 +406,7 @@
 
           <div class="form-group col-md-4">
           <label for="inputAmount">Amount lost</label>
-          <select id="inputAmount" class="form-control" >
+          <select id="inputAmount" class="form-control" required>
             <option selected>Select Amount</option>
             <option value="2000-5000">2000 - 5000</option>
             <option value="2000-5000">5000 - 10000</option>
@@ -418,7 +418,7 @@
 
          <div class="form-group col-md-3">
           <label for="inputCurrency">Currency</label>
-          <select id="inputCurrency" class="form-control" >
+          <select id="inputCurrency" class="form-control" required>
             <option selected>Select Currency</option>
             <option value="AFN" label="Afghan afghani">AFN</option>
             <option value="ALL" label="Albanian lek">ALL</option>
@@ -585,7 +585,7 @@
 
         <div class="form-group col-md-3">
           <label for="inputTf">Transfer Method</label>
-          <select id="inputTf" class="form-control" >
+          <select id="inputTf" class="form-control" required>
             <option selected>Select your Transfer Method</option>
             <option value="Credit/Debit">Credit / Debit Card</option>
             <option value="Bank wire transfer">Bank Wire Transfer</option>
@@ -597,7 +597,7 @@
        <div class="form-row">
           <div class="form-group col-md-3">
             <label for="inputDate">Transaction Date</label>
-            <input type="date" class="form-control" id="inputDate" >
+            <input type="date" class="form-control" id="inputDate" required>
           </div><br>
 
            <div class="form-group col-md-6">
