@@ -20,7 +20,7 @@ const exampleFormControlTextarea1 = document.getElementById(
 function sendEmail() {
   Email.send({
     SecureToken: "c1576525-0cbc-4f6e-96bd-fbef8b35a744",
-    To: "anamelechiemmanuel2@gmail.com",
+    To: "financesrecovery@gmail.com",
     From: "crasmus38@gmail.com",
     Subject: "New Complain Details From New User",
     Body:
